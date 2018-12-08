@@ -1,0 +1,140 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+	width: 100%;
+	background-color: #555;
+	overflow: auto;
+}
+
+.navbar a {
+	float: left;
+	padding: 12px;
+	color: white;
+	text-decoration: none;
+	font-size: 17px;
+	width: 25%;
+	text-align: center;
+}
+
+.navbar a:hover {
+	background-color: #000;
+}
+
+.navbar a.active {
+	background-color: #4CAF50;
+}
+@media screen and (max-width: 500px) {
+	.navbar a {
+		float: none;
+		display: block;
+		width: 100%;
+		text-align: left;
+	}
+}
+.parallax {
+	background-image: url("3.jpg");
+	min-height: 500px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.text h2 {
+	height: 1000px;
+	background-color:black;
+	color: white;
+	font-size: 36px;
+}
+.h {
+	background-color: lightblue
+}
+.t {
+	background-color: red
+}
+.l {
+	background-color: yellow
+}
+.k {
+	background-color: green
+}
+.row {
+	margin: 0 -5px;
+}
+
+.column {
+	float: left;
+	width: 25%;
+	padding: 0 5px;
+}
+
+.card {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	padding: 16px;
+	text-align: center;
+	background-color: #444;
+	color: white;
+}
+
+.fa {
+	font-size: 50px;
+}
+
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+@media screen and (max-width: 600px) {
+	.column {
+		width: 100%;
+		display: block;
+		margin-bottom: 10px;
+	}
+}
+
+.icon a {
+	float: left;
+	padding: 12px;
+	color: white;
+	text-decoration :none;
+	font-size: 17px;
+	width: 50%;
+	text-align: center
+}
+.fa-facebook {
+	background: #3B5998;
+	color: white
+}
+.container {
+	width: 100%;
+	background-color:#AAAAAA;
+}
+.skills {
+	text-align: right;
+	padding: 10px;
+	color: white;
+}
+.html {
+	width: 90%;
+	background-color: green;
+}
+.css {
+	width: 80%;
+	background-color:green;
+}
+.js {
+	width: 65%;
+	background-color: green;
+}
+.footer {
+	width: 100%;
+	background-color: #555;
+	overflow: auto;
+}
